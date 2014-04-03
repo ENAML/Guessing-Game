@@ -3,8 +3,55 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Guessing Game</title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Aldrich|Montserrat:400,700|Roboto:400,700,900|Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/main.css">
+
 	</head>
 	<body>
+
+		
+
+		<header>
+			<h1>Guessing Game</h1>
+			<div id="description">
+				<p>A number between 1 and 100 had been randomly selected - see if you can guess it. You've got 5 tries to get it right. The game will let you know if you're guess is close.</p>
+			</div>
+		</header>
+
+		
+		<div id="wrapper">
+			<div id="userInput">
+
+				<input type="textbox" id="textbox1" value="Enter Number Here">
+				<div id="buttons">
+					<button id="getTextBoxValue">Guess!</button>
+					<button id="reset">Reset</button>
+					<button id="hint">Hint</button>
+				</div>
+
+			</div>
+
+			<div>
+				Previous Guesses: <span class="output" id="results"></span>
+			</div>
+
+			<div id="outcome">
+				<span class="output" id="matchResult"></span>&nbsp;
+			</div>
+
+			<div id="answer">
+				Random Number is: <span class="output" id="randNum"></span>
+			</div>
+		</div>
+
+		<footer>
+			<div id="contact">
+				<p>&copy; 2014 Ethan Cline.</p>
+			</div>
+		</footer>
+		
+		<script src="jquery.min.js"></script>
+		<script type="text/javascript" src="guess.js"></script> 
 	</body>
 </html>

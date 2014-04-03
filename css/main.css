@@ -1,0 +1,110 @@
+/* site body */
+body {
+	background-color: #CCC;
+	background-image: url('../img/background.jpg');
+	font-family: 'Roboto Slab', sans-serif;
+	color: #333;
+	font-size: 1.5em;
+
+}
+
+header {
+	background-color: #EEE;
+	width: 100%;
+	margin: -50px 0 0 0;
+	padding: 1px 0 0 0;
+}
+
+header #description {
+	max-width: 940px;
+	margin: -50px auto 0px auto;
+	padding: 0 0 10px 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	font-size:4em;
+	text-align: center;
+}
+
+#wrapper {
+	background-color: #EEE;
+	max-width: 750px;
+	margin: 30px auto 150px auto;
+	padding: 30px 5%;
+	border-radius: 30px;
+	font-size: 1.0em;
+}
+
+#userInput {
+	text-align: center;
+	padding: 0 0 0px 0;
+}
+
+#buttons {
+	margin: 20px auto;
+}
+
+#wrapper div {
+	margin: 10px auto;
+}
+
+.output {
+	color: red;
+	font-weight: bold;
+}
+
+input {
+	border:0px;
+	padding:20px;
+	text-align: center;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	width: 600px;
+	color: red;
+	background-color: #CCC;
+}
+
+button {
+	display: inline-block;
+	font-family: 'Roboto Slab', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 20px 25px;
+	margin: 20px 20px;
+	color: #fff;
+	background-color: #333;
+	border: 0 none;
+}
+
+#answer {
+	display: none;
+}
+
+#outcome {
+	display: block;
+	margin: 0 10px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #000;
+	color: #CCC;
+	width: 100%;
+	position:fixed;
+	bottom: 0px;
+	padding: 0 0 0 0;
+
+}
+
+footer #contact {
+	max-width: 700px;
+	margin: 0px auto 0px auto;
+	padding: 0 0 0px 0;
+	text-align: right;
+}
+
